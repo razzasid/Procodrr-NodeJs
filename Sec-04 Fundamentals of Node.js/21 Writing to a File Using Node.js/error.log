@@ -1,0 +1,7 @@
+11:26:41 pm
+ENOENT: no such file or directory, open 'D:\02-Programming-Language\MERN\node-js\Anurag-Singh\Sec-04 Fundamentals of Node.js\21 Writing to a File Using Node.js\node.jss'
+Error: ENOENT: no such file or directory, open 'D:\02-Programming-Language\MERN\node-js\Anurag-Singh\Sec-04 Fundamentals of Node.js\21 Writing to a File Using Node.js\node.jss'
+    at async open (node:internal/fs/promises:638:25)
+    at async Object.readFile (node:internal/fs/promises:1242:14)
+    at async file:///D:/02-Programming-Language/MERN/node-js/Anurag-Singh/Sec-04%20Fundamentals%20of%20Node.js/21%20Writing%20to%20a%20File%20Using%20Node.js/app.js:40:23
+

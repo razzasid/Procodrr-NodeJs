@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+console.log("hi")
+import { readFile, writeFile } from "node:fs/promises"
+
+
+//const currentFilePath = process.argv[1];
+console.log(process.argv)
+const fileToCopy = process.argv[2];
+const fileDestinationPath = process.argv[3]
+
+const fileContentBuffer = await readFile(fileToCopy);
+
+writeFile(fileDestinationPath, fileContentBuffer)
+
+// To execute copy script do this on terminal:
+// command file_To_Be_Copied destinationFolder_With_NewFileName
+// copy image.webp "C:\Users\hameed\Desktop\nodejs-section-4-files\myImage.webp"

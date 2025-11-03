@@ -1,0 +1,19 @@
+{
+  "name": "hk-words-counter",
+  "version": "1.0.3",
+  "description": "A command-line tool that analyzes text files to count word occurrences. Provides total word counts and allows searching for specific word frequencies.",
+  "bin": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "pkg -t node16-win-x64 ."
+  },
+  "keywords": [
+    "cli",
+    "word",
+    "counter",
+    "text"
+  ],
+  "author": "Hameed Khan",
+  "license": "MIT",
+  "dependencies": {}
+}

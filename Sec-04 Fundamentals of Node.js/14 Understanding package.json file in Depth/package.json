@@ -1,0 +1,23 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "description": "To Learn package.json file in depth",
+  "main": "app.js",
+  "author": "Hameed Khan",
+  "license": "ISC",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "restart": "node",
+    "stop": "git -v",
+    "dev": "node --watch app.js",
+    "hi": "pwd"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

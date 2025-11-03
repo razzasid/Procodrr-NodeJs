@@ -1,0 +1,1 @@
+**Q1:** When i am writing like this: `echo "\n Hameed Khan" >> abc.txt` the `backslash \n` is visible in vs code how to fix it? [Ans-1]()

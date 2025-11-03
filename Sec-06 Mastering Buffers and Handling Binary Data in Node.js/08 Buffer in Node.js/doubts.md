@@ -1,0 +1,1 @@
+**Q1:** If Buffer.alloc() is node.js specific then what about `ArrayBuffer()` and `Uint8Array()` [Ans-1]()
